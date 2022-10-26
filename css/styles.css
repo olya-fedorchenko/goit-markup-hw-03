@@ -101,16 +101,22 @@ a {
 
 .header-nav {
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
+    align-items: center; 
+    /* justify-content: flex-start; */
+} 
 
+.header-logo {
+    padding: 24px 0;
+    margin-right: 93px;
+}
 .nav-list {
     display: flex;
 
 
 }
-
+.header-nav-link {
+    padding: 32px 0;
+}
 .header-nav-item {
     /* background-color: tomato; */
     margin-right: 50px;
@@ -127,7 +133,7 @@ a {
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
     color: var(---primary-text-color);
-    padding: 32px 0;
+    
 }
 
 
@@ -153,7 +159,6 @@ a {
     line-height: calc(31 / 26);
     letter-spacing: 0.03em;
     color: var(---last-logo-color);
-    margin-right: 93px;
 }
 
 
@@ -161,6 +166,7 @@ a {
 .e-mail-tel {
     display: flex;
     justify-content: flex-end;
+    margin-left: auto;
 }
 
 /* .e-mail-tel-item {
@@ -364,7 +370,7 @@ a {
     letter-spacing: 0.03em;
     color: var(---primary-text-color);
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 .team-card-descr {
     font-size: 16px;
@@ -445,8 +451,7 @@ footer {
     margin-top: 0;
     margin-bottom: 0;
 }
-.logo {
-    display: inline-block;
+.footer-logo {
     padding-top: 0;
     padding-bottom: 0;
     margin-top: 0;
@@ -484,7 +489,9 @@ section {
 
 }
 .footer-container .link {
-    display: block;
+    display: inline-block;
+    margin-right: 0;
+    padding-right: 0;
 }
 .project-list {
     display: flex;
@@ -494,7 +501,7 @@ section {
 .project-flex-container {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 50px;
+    margin-top: 50px;
     
 }
 .project-flex-element {
@@ -518,7 +525,7 @@ section {
     /* outline: 1px solid var(---border-color); */
 }
 
-.filters-container {
+.portfolio-container {
     display: flex;
     padding-top: 0;
     padding-bottom: 0;
