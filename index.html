@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="header-container container">
         <nav class="header-nav">
           <a href="./index.html" class="header-logo link"><span class="first-part">Web</span><span
@@ -25,13 +25,15 @@
             <li class="header-nav-item"><a href="" class="header-nav-link link">Контакти</a></li>
           </ul>
         </nav>
-      
+    
         <ul class="e-mail-tel list">
-          <li class="e-mail-tel-item"><a class="header-mailto-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li class="e-mail-tel-item"><a class="headrer-tel-link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li class="e-mail-tel-item"><a class="header-mailto-link link"
+              href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li class="e-mail-tel-item"><a class="headrer-tel-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
         </ul>
       </div>
-      
+    
     </header>
     <main>
       <section class="hero">
@@ -41,66 +43,40 @@
       <section class="features">
         <div class="container">
           <h2 class="features-title visually-hidden">Наші особливості</h2>
-            <div class="features-flex-element">
-              <ul class="features-list list">
-                <div class="features-flex-element">
-                  <li class="features-list-item">
-                    <div class="features-flex-dscr">
-                      <h3 class="features-fact">Увага до деталей</h3>
-                      <p class="features-fact-descr">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
-                    </div>
-                  </li>
-                </div>
-                <div class="features-flex-element">
-                  <li class="features-list-item">
-                    <div class="features-flex-dscr">
-                      <h3 class="features-fact">Пунктуальність</h3>
-                      <p class="features-fact-descr">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
-
-                    </div>
-                    
-                  </li>
-                </div>
-                <div class="features-flex-element">
-                  <li class="features-list-item">
-                    <div class="features-flex-dscr">
-                      <h3 class="features-fact">Планування</h3>
-                      <p class="features-fact-descr">Так само консультація з широким активом значною мірою зумовлює.</p>
-                    </div>
-                  </li>
-                </div>
-              
-                <div class="features-flex-element">
-                  <li class="features-list-item">
-                    <div class="features-flex-dscr">
-                      <h3 class="features-fact">Сучасні технології</h3>
-                      <p class="features-fact-descr">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
-
-                    </div>
-                  </li>
-                </div> 
-              </ul>
-            </div>
-
-            
-          
+          <ul class="features-list list">
+            <li class="features-list-item">                   
+              <h3 class="features-fact">Увага до деталей</h3>
+              <p class="features-fact-descr">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+            </li>
+                
+            <li class="features-list-item">
+              <h3 class="features-fact">Пунктуальність</h3>
+              <p class="features-fact-descr">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>                    
+            </li>
+                
+            <li class="features-list-item">
+              <h3 class="features-fact">Планування</h3>
+              <p class="features-fact-descr">Так само консультація з широким активом значною мірою зумовлює.</p>
+            </li>
+                
+            <li class="features-list-item">
+              <h3 class="features-fact">Сучасні технології</h3>
+              <p class="features-fact-descr">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+            </li> 
+          </ul>
         </div>
-        
-            
-        
-        
       </section>
       <section class="box">
         <div class="container">
           <h2 class="box-facts">Чим ми займаємося</h2>
           <ul class="box-list list">
-            <li class="box-list-item">
+            <li>
               <img src="./images/box1.jpg" alt="Чоловік працює за ноутбуком" width="370" />
             </li>
-            <li class="box-list-item">
+            <li>
               <img src="./images/box2.jpg" alt="Дівчина працює за телефоном" width="370" />
             </li>
-            <li class="box-list-item">
+            <li>
               <img src="./images/box3.jpg" alt="Чоловік працює за планшетом" width="370" />
             </li>
           </ul>
@@ -110,54 +86,37 @@
       <section class="team">
         <div class="container">
           <h2 class="team-title">Наша команда</h2>
-        
-          <div class="team-flex-container">
-            <ul class="team-list list">
-              <div class="team-flex-element">
-                <li>
+          <ul class="team-list list">
+                <li class="team-flex-element">
                   <img src="./images/team-card1.jpg" alt="Ігор Дем'яненко" width="270" />
                   <div class="team-flex-dscr">
                     <h3 class="team-card">Ігор Дем'яненко</h3>
                     <p class="team-card-descr">Product Designer</p>
                   </div>
-                    
                 </li>
-              </div>
-              <div class="team-flex-element">
-                <li>
+                <li class="team-flex-element">
                   <img src="./images/team-card2.jpg" alt="Ольга Рєпіна" width="270" />
                   <div class="team-flex-dscr">
                     <h3 class="team-card">Ольга Рєпіна</h3>
                     <p class="team-card-descr">Frontend Developer</p>
                   </div>
                 </li>
-              </div>
-              <div class="team-flex-element">
-                <li>
+                <li class="team-flex-element">
                   <img src="./images/team-card3.jpg" alt="Микола Тарасов" width="270" />
                   <div class="team-flex-dscr">
                     <h3 class="team-card">Микола Тарасов</h3>
                     <p class="team-card-descr">Marketing</p>
                   </div>
                 </li>
-              </div>
-              <div class="team-flex-element">
-                <li>
+                <li class="team-flex-element">
                   <img src="./images/team-card4.jpg" alt="Михайло Єрмаков" width="270" />
                   <div class="team-flex-dscr">
                     <h3 class="team-card">Михайло Єрмаков</h3>
                     <p class="team-card-descr">UI Designer</p>
                   </div>
-                  
                 </li>
-
-              </div>
-              
-            </ul>
-          </div>
-          
-
-        </div>
+           </ul>
+      </div>
        
       </section>
     </main>
