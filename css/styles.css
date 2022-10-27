@@ -353,7 +353,6 @@ a {
 }
 
 .team-list {
-    display;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -539,10 +538,6 @@ section {
  .features-list-item:nth-child(4n) {
      margin-right: 0;
  }
-
-
-
-
 
 .team-flex-element {
     width: calc((100% - 90px) / 4);
